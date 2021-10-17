@@ -38,3 +38,4 @@ function userAdded (data) {
 console.log("User Added: "+data)
 }
 makeAJAXCall("POST", postURL, userAdded, true, emplData);
+
